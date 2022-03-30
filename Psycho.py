@@ -164,12 +164,12 @@ def main_input():
     mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;96m ')
     if mx=='1':
         print ""
-        print('\033[1;94m Cheking Subscription ....\033[1;92m')
+        print('\033[1;94mCheking Subscription ....\033[1;92m')
         time.sleep(3)
         fb_menu()
     elif mx=='2':
         print ""
-        print('\033[1;94m Cheking Subscription ....\033[1;97m')
+        print('\033[1;94mCheking Subscription ....\033[1;97m')
         time.sleep(3)
         numcloning()
     elif mx=='3':
@@ -197,7 +197,7 @@ def main_input():
             main_system()
     elif mx=='4':
         print ""
-        print('\033[1;94m Cheking Subscription ....\033[1;97m')
+        print('\033[1;94mCheking Subscription ....\033[1;97m')
         time.sleep(3)
         grap()
     elif mx=='5':
@@ -248,11 +248,11 @@ def numcloning():
     os.system ("clear")
     print logo
     print ""
-    print    "    \033[1;91m\n[ Pakistan Random Number Cloning ]"
+    print    "    \033[1;93m\n[ Pakistan Random Number Cloning ]"
     
     print ""
-    print ('\033[1;92m\n   [*] Enter First 4 Latter Of Any Network : ')
-    print ("\033[1;93m\n     Example 0300  0345 0320 0303 ")
+    print ('\033[1;92m\n [*] Enter First 4 Latter Of Any Network : ')
+    print ("\033[1;93m\n Example 0300  0345 0320 0303 ")
     print ""
     coc=raw_input ('\033[1;95m\nChoice Code :\033[1;93m ')
     try:
