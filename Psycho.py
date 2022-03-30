@@ -153,11 +153,11 @@ def main_system():
     print "\x1b[1;91m[6] Update Tools"
     print "\x1b[1;97m[7] Any Help Massage WhatsApp"
     print "\x1b[1;93m50*'-'"
-    print "\x1b[1;92m[⚠︎]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
+    print "\x1b[1;92m[×]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
     print "\x1b[1;93m50*'-'"
     main_input()
 def main_input():
-    mx=raw_input('\x1b[1;92m[✔︎] Select :\x1b[1;92m ')
+    mx=raw_input('\x1b[1;92m[✓] Select :\x1b[1;92m ')
     if mx=='1':
         print ""
         print('\033[1;94m Cheking Subscription ....\033[1;92m')
@@ -174,16 +174,16 @@ def main_input():
         print ("")
         print ("")
         print ("")
-        print "𒊹︎︎︎ File Cloning 𒊹︎︎︎"
+        print "{ File Cloning }"
         print ""
-        print "𒊹︎︎︎ Clone With Auto Pass Speed 𒊹︎︎︎"
+        print "[ Clone With Auto Pass Speed ]"
         print ""
         print "\x1b[1;93m[1] Cloning With Auto Pass"
         print "\x1b[1;96m[2] Cloning With Name + Pass"
         
-        print "[✘] Back"
+        print "[×] Back"
         print ""
-        c=raw_input("[⚠︎] Select : ")
+        c=raw_input("[✓] Select : ")
         if c=='1':
             fileauto()
         elif c=='2':
