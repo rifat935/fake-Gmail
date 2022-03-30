@@ -119,7 +119,7 @@ def main_system():
     print logo
     print "" 
     print "\x1b[1;91m"
-    print 50*'~'
+    print 50*'_'
     print "\x1b[1;95m[1] Public Cloning    \x1b[1;90m(Login)"
     print "\x1b[1;92m[2] Random Cloning \x1b[1;90m(No Login)"
     print "\x1b[1;93m[3] File Cloning   \x1b[1;90m(No Login)"
