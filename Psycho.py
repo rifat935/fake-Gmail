@@ -38,13 +38,13 @@ logo = """
 \x1b[1;92m|  _/\__ \\ V / | (__| __ | (_) | 
 \x1b[1;92m|_|  |___/ |_|   \___|_||_|\___/ 
 
-\x1b[1;91m---------------------------------------------------
+
 \x1b[1;95mAUTHOR      : PSYCHO PICCHI    
 \x1b[1;92mGITHUB      : PSYCHO PICCHI  
 \x1b[1;93mFACEBOOK    : PSYCHO PICCHI
 \x1b[1;94mTOOL TYPE   : I CAN'T KNOW
 \x1b[1;96mWHATSAPP    : 01926890544 
-\x1b[1;91m---------------------------------------------------      
+
 """
 dec="2"
 server="2"
