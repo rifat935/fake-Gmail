@@ -47,13 +47,11 @@ logo = """ '\x1b[1;92m'
 dec="2"
 server="2"
 
-
 rsauser = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 #Thrrrrrding
 header= {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent":rsauser, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 reload(sys)
 sys.setdefaultencoding('utf8')
-
 
 
 fuck=[]
@@ -62,8 +60,6 @@ oks=[]
 cps=[]
 
 
-    
-    
 def main_apv():
     imt="+Unknown=="
     os.system('clear')
@@ -120,9 +116,6 @@ def main_apv():
          
         os.system("xdg-open https://wa.me/+923200596325")
         
-        
-        
-
 def main_system():
     try:
         token=open('token.txt','r').read()
