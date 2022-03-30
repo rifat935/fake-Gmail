@@ -37,7 +37,8 @@ logo = """ '\x1b[1;92m'
 \x1b[1;92m| _ \/ __\ \ / ((/ __| || |/ _ \  
 \x1b[1;92m|  _/\__ \\ V / | (__| __ | (_) | 
 \x1b[1;92m|_|  |___/ |_|   \___|_||_|\___/ 
-
+\x1b[1;91m
+print 50*'~'
 \x1b[1;95mAUTHOR      : PSYCHO PICCHI    
 \x1b[1;92mGITHUB      : PSYCHO PICCHI  
 \x1b[1;93mFACEBOOK    : PSYCHO PICCHI
@@ -143,7 +144,8 @@ def main_system():
         os.system('rm -rf token.txt')
     os.system('clear')
     print logo
-    print ""
+    print "" 
+    print \x1b[1;91m
     print 50*'~'
     print "\x1b[1;95m[1] Public Cloning    \x1b[1;90m(Login)"
     print "\x1b[1;92m[2] Random Cloning \x1b[1;90m(No Login)"
