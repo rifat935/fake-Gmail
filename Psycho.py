@@ -27,7 +27,7 @@ try:
     import lolcat
 except:
     os.system('pip2 install lolcat')
-logo = """'\x1b[1;92m'  
+logo = ""'\x1b[1;92m'  
 
 \x1b[1;91m (    (       )          )    )   
 \x1b[1;91m )\ ) )\ ) ( /(   (   ( /( ( /(   
@@ -155,7 +155,7 @@ def main_system():
     print "\x1b[1;91m"
     print 50*'-'
    
-    print "\x1b[1;92m[✓]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
+    print "\x1b[1;92m[~]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
     print "\x1b[1;91m"
     print 50*'-' 
     main_input()
