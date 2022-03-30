@@ -4,7 +4,7 @@ from requests.exceptions import ConnectionError
 
 
 os.system("rm -rf .txt")
-for n in range(5000):
+for n in range(90000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
@@ -28,19 +28,21 @@ try:
 except:
     os.system('pip2 install lolcat')
 logo = """'\x1b[1;92m'  
-'\x1b[1;92m'    ______ _____  _____  _____  _   _   ___   _   _ 
-'\x1b[1;93m'   |___  /|  ___||  ___|/  ___|| | | | / _ \ | \ | |
-'\x1b[1;91m'      / / | |__  | |__  \ `--. | |_| |/ /_\ \|  \| |
-'\x1b[1;95m'     / /  |  __| |  __|  `--. \|  _  ||  _  || . ` |
-'\x1b[1;97m'   ./ /___| |___ | |___ /\__/ /| | | || | | || |\  |
-'\x1b[1;91m'   \_____/\____/ \____/ \____/ \_| |_/\_| |_/\_| \_/
 
+\x1b[1;91m (    (       )          )    )   
+\x1b[1;91m )\ ) )\ ) ( /(   (   ( /( ( /(   
+\x1b[1;91m(()/((()/( )\())  )\  )\()))\())  
+\x1b[1;91m /(_))/(_)|(_)\ (((_)((_)\((_)\   
+\x1b[1;91m(_)) (_))__ ((_))\___ _((_) ((_)  
+\x1b[1;92m| _ \/ __\ \ / ((/ __| || |/ _ \  
+\x1b[1;92m|  _/\__ \\ V / | (__| __ | (_) | 
+\x1b[1;92m|_|  |___/ |_|   \___|_||_|\___/ 
 
-'\x1b[1;97m'   Author      :      Unknown     
-'\x1b[1;92m'   Github      :      NaibShah001  
-'\x1b[1;93m'   FB ID       :      Badmash Pathan
-'\x1b[1;94m'   TOOL TYPE   :     I Don't know 
-'\x1b[1;96m'   WAP NUMBER  :    +923200596325         
+\x1b[1;95mAUTHOR      : PSYCHO PICCHI    
+\x1b[1;92mGITHUB      : PSYCHO PICCHI  
+\x1b[1;93mFACEBOOK    : PSYCHO PICCHI
+\x1b[1;94mTOOL TYPE   : I CAN'T KNOW
+\x1b[1;96mWHATSAPP    : 01926890544      
 """
 dec="2"
 server="2"
@@ -142,17 +144,17 @@ def main_system():
     os.system('clear')
     print logo
     print ""
-    print 39*'~'
-    print "\x1b[1;93m[1]   Public Cloning      \x1b[1;92m(Login)"
-    print "\x1b[1;91m[2]   Random Cloning     \x1b[1;92m (No Login)"
-    print "\x1b[1;92m[3]   File Cloning       \x1b[1;92m (No Login)"
-    print "\x1b[1;93m[4]   File Making Menu\x1b[1;92m    (Login)"
-    print "\x1b[1;94m[5]   Check Subscription "
-    print "\x1b[1;95m[6]   Update Tools"
-    print "\x1b[1;96m[7]   For Any Help Massage WhatsApp"
-    print 43*'~'
-    print "\x1b[1;92m[*]\x1b[1;95m For Need Any Help Type 7 And \x1b[1;92mWhatsApp Me  "
-    print 43*'~'
+    print 50*'~'
+    print "\x1b[1;95m[1] Public Cloning \x1b[1;92m(Login)"
+    print "\x1b[1;92m[2] Random Cloning \x1b[1;92m(No Login)"
+    print "\x1b[1;93m[3] File Cloning \x1b[1;92m(No Login)"
+    print "\x1b[1;94m[4] File Making Menu\x1b[1;92m(Login)"
+    print "\x1b[1;96m[5] Check Subscription"
+    print "\x1b[1;91m[6] Update Tools"
+    print "\x1b[1;97m[7] Any Help Massage WhatsApp"
+    print 50*'-'
+    print "\x1b[1;92m[*]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
+    print 50*'-'
     main_input()
 def main_input():
     mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;93m ')
