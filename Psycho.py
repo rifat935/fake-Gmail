@@ -38,7 +38,6 @@ logo = """ '\x1b[1;92m'
 \x1b[1;92m|  _/\__ \\ V / | (__| __ | (_) | 
 \x1b[1;92m|_|  |___/ |_|   \___|_||_|\___/ 
 
-\x1b[1;91m-------------------------------------------------
 \x1b[1;95mAUTHOR      : PSYCHO PICCHI    
 \x1b[1;92mGITHUB      : PSYCHO PICCHI  
 \x1b[1;93mFACEBOOK    : PSYCHO PICCHI
@@ -157,12 +156,12 @@ def main_system():
     print "\x1b[1;91m"
     print 50*'-'
    
-    print "\x1b[1;92m[!]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
+    print "\x1b[1;96m[!]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
     print "\x1b[1;91m"
     print 50*'-' 
     main_input()
 def main_input():
-    mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;92m ')
+    mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;96m ')
     if mx=='1':
         print ""
         print('\033[1;94m Cheking Subscription ....\033[1;92m')
