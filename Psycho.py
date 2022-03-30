@@ -27,7 +27,7 @@ try:
     import lolcat
 except:
     os.system('pip2 install lolcat')
-logo = """ '\x1b[1;92m'  
+logo = """  
 
 \x1b[1;91m (    (       )          )    )   
 \x1b[1;91m )\ ) )\ ) ( /(   (   ( /( ( /(   
@@ -82,14 +82,14 @@ def main_apv():
         kok.write(myid+imt)
         kok.close()
         print ("")
-        print ("           Ya Uper Wale Ap Ke KEY Ha")
-        print ("           Copy Kar Ka WhatsApp Pa Bhaj Dena")
+        print ("           Ami Tor bap Copy")
+        print ("           Copy korbi Tor maa Xudmu Magir put")
         print ("")
         print ("")
         print ("")
-        print ("     Agar Ap Na Subscription Kar Le Ha To")
-        raw_input ("    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ")
-        os.system("xdg-open https://wa.me/+923200596325")
+        print ("     Kisu lagbo Subscription Type kor")
+        raw_input ("    Termux Dehke Exit Dw ber hote Parbah ")
+        os.system("xdg-open https://wa.me/+8801926890544")
         
     r1=requests.get("https://raw.githubusercontent.com/NAYABPARI/file/main/server.txt").text
     if key1 in r1:
@@ -98,7 +98,7 @@ def main_apv():
         os.system("clear")
         print logo
         print ("           You dont have subscrption")
-        print("           Hello Dear Es Cammonds Ka pta Nhi Paid Han Or")
+        print("           Hello Dear Es Cammand For Free Picchi ")
         print ("          Free Han Ap Ke Subscription Nhi Ha Please Ap") 
         print ("           Admin Sa Rabta Kran Thanks")
         print ("           Subscription Kelya Enter Press Kro")
