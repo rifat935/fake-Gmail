@@ -144,7 +144,7 @@ def main_system():
     os.system('clear')
     print logo
     print "" 
-    print \x1b[1;91m
+    print "\x1b[1;91m"
     print 50*'~'
     print "\x1b[1;95m[1] Public Cloning    \x1b[1;90m(Login)"
     print "\x1b[1;92m[2] Random Cloning \x1b[1;90m(No Login)"
