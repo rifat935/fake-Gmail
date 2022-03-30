@@ -144,7 +144,7 @@ def main_system():
     os.system('clear')
     print logo
     print ""
-    print 50*'~'
+    print \x1b[1;91m50*'~'
     print "\x1b[1;95m[1] Public Cloning    \x1b[1;90m(Login)"
     print "\x1b[1;92m[2] Random Cloning \x1b[1;90m(No Login)"
     print "\x1b[1;93m[3] File Cloning   \x1b[1;90m(No Login)"
@@ -152,9 +152,9 @@ def main_system():
     print "\x1b[1;96m[5] Check Subscription"
     print "\x1b[1;91m[6] Update Tools"
     print "\x1b[1;97m[7] Any Help Massage WhatsApp"
-    print 50*'-'
+    print \x1b[1;91m50*'-'
     print "\x1b[1;92m[*]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
-    print 50*'-'
+    print \x1b[1;91m50*'-'
     main_input()
 def main_input():
     mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;92m ')
